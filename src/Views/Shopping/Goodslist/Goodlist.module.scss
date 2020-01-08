@@ -1,0 +1,46 @@
+.shoppinggoodslist{
+    margin-bottom: .1rem;
+    margin-left: .1rem;
+    margin-right: .1rem;
+    background: red;
+    .shoppinggoodslist_head{
+        .shoppinggoodslist_head_title{
+            font-size: 0.16rem;
+            color: white;
+            text-align: center;
+            font-weight: 700;
+        }
+    }
+    .shoppinggoodslist_goods{
+        margin-left: .03rem;
+        margin-right: .03rem;
+        background: white;
+        display: flex;
+        .shoppinggoodslist_goods_every{
+            border: 1px solid #eee;
+            padding: .048rem;
+            flex: 1;
+            img{
+                width: .9561rem;
+                height: .9561rem;
+                margin: 0 auto;
+            }
+            .title{
+                margin-top: .048rem;
+                font-size: .012rem;
+                font-weight: bolder;
+                text-align: center;
+            }
+            .price{
+                font-size: .013rem;
+                color: #ff4c48;
+                text-align: center;
+                padding-right: 0.072rem;
+            }
+        }
+        .shoppinggoodslist_goods_every:nth-of-type(2),
+        .shoppinggoodslist_goods_every:nth-of-type(3){
+            margin-left: .048rem;
+        }
+    }
+}

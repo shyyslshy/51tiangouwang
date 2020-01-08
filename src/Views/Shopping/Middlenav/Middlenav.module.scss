@@ -1,0 +1,20 @@
+.middlenav{
+    font-size: .15rem;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    .middlenav_every{
+        width: 20%;
+        text-align: center;
+        .middlenav_every_img{
+            margin: 0 auto;
+            width: .5rem;
+            height: .5rem;
+        }
+        .middlenav_every_p{
+            font-size: .11rem;
+            margin-top: .0333333333rem;
+        }
+    }
+}
