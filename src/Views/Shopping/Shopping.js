@@ -14,9 +14,7 @@ import Pagehead from '../../Components/Pagehead/Pagehead'
 export default class Shopping extends Component {
 
     componentDidMount() {
-        store.dispatch(getShoppingDataList()).then(res => {
-            console.log("首页取回数据成功======异步存store成功",store.getState())
-        })
+        store.dispatch(getShoppingDataList())
         store.dispatch(getGoodsgoodVideoDataList())
     }
     

@@ -10,7 +10,7 @@ export default class Middlenav extends Component {
 
     UNSAFE_componentWillMount() {
         store.subscribe(() => {
-            console.log(store.getState().shoppingReducer[6].data.items)
+            // console.log(store.getState().shoppingReducer[6].data.items)
             this.setState({
                 shoppingMiddleList: store.getState().shoppingReducer[6].data.items
             })
