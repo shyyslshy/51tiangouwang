@@ -13,7 +13,7 @@ export default class Store extends Component {
     render() {
         return (
             <div>
-                Store
+                我是购物页面
             </div>
         )
     }
