@@ -7,6 +7,7 @@ import Middlenav from './Middlenav/Middlenav'
 import Advertisement from './Advertisement/Advertisement'
 import Goodlist from './Goodslist/Goodlist'
 import Shoppingtitile from './Shoppingtitle.js/Shoppingtitile'
+import Pagehead from '../../Components/Pagehead/Pagehead'
 
 export default class Shopping extends Component {
 
@@ -19,6 +20,7 @@ export default class Shopping extends Component {
     render() {
         return (
             <div className = {style.shopping}>
+                <Pagehead/>
                 <Middlenav/>
                 <Advertisement/>
                 <Shoppingtitile shoppingtitile = "限时抢购"/>
