@@ -1,6 +1,6 @@
 const recommendReducer = (prevState = [], action) => {
     let { type, payload } = action
-    console.log(action,'recommendReducer=======')
+    // console.log(action,'recommendReducer=======')
     switch(type){
         case "recommend":
             return [...prevState, ...payload]

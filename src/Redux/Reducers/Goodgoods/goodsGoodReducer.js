@@ -1,6 +1,6 @@
 const GoodgoodsDataReducer = (prevState = [], action) => {
     let { type, payload } = action
-    console.log(action,'GoodgoodsDataReducer=======')
+    // console.log(action,'GoodgoodsDataReducer=======')
     switch(type){
         case "GoodgoodsData":
             return [...prevState, ...payload]

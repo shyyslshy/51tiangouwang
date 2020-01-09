@@ -1,13 +1,10 @@
 import React, { Component } from 'react'
-import store from '../../../Redux/store'
-import { getGoodsgoodVideoDataList } from '../../../Redux/Actions/Shopping/Shoppingvideo'
 
 export default class GoodsgoodVideo extends Component {
-
-    componentDidMount() {
-        store.dispatch(getGoodsgoodVideoDataList())
-    }
     
+    
+    //视频数据是数组的24
+   
 
     render() {
         return (
