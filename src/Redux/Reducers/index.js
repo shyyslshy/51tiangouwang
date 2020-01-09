@@ -1,5 +1,6 @@
 import { combineReducers } from 'redux'
 import shoppingReducer from './Shopping/shoppingReducer'
+import shoppinggoodsvideoReducer from './Shopping/ShoppingvideoReducer'
 import GoodgoodsDataReducer from './Goodgoods/goodsGoodReducer'
 import recommendReducer from './Goodgoods/goodsGoodReducer'
 import storeReducer from './Store/StoreReducer'
@@ -11,7 +12,8 @@ const reducer = combineReducers({
     GoodgoodsDataReducer,
     recommendReducer,
     storeReducer,
-    overSeasReducer
+    overSeasReducer,
+    shoppinggoodsvideoReducer
 })
 
 export default reducer
