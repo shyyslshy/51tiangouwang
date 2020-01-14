@@ -36,4 +36,11 @@ module.exports = function(app) {
       changeOrigin: true,
     })
   );
+  app.use(
+    '/product',
+    proxy({
+      target: 'https://midway.51tiangou.com',
+      changeOrigin: true,
+    })
+  );
 };

@@ -1,7 +1,7 @@
-const GoodgoodsDataReducer = (prevState = [], action) => {
+const DetailReducer = (prevState = [], action) => {
     let { type, payload } = action
     switch(type){
-        case "GoodgoodsData":
+        case "GET_Detaillist":
             return [...prevState, ...payload]
         default:
             return prevState
@@ -9,4 +9,4 @@ const GoodgoodsDataReducer = (prevState = [], action) => {
     // return prevState
 }
 
-export default GoodgoodsDataReducer
+export default DetailReducer

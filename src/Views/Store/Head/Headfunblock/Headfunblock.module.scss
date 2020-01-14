@@ -1,0 +1,16 @@
+.bigbox{
+    display: flex;
+    width: 100%;
+    padding: .3rem .1rem;
+    text-align: center;
+    justify-content: space-around;
+    div{
+        img{
+            width: .54rem;
+        }
+        p{
+            font-size: .13rem;
+            color: black;
+        }
+    }
+}

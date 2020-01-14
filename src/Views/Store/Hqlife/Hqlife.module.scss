@@ -1,0 +1,29 @@
+.goodlifeblock{
+    padding: 0 .1rem;
+    .goodlisftitle {
+        margin: .1rem 0;
+        font-weight: 900;
+    }
+    .goodbigbox{
+        width: 100%;
+        display: flex;
+        .goodbox{
+            flex: 1;
+            position: relative;
+            .goodimg{
+                width: 1rem;
+                margin-left: .06rem;
+            }
+            .goodstitle{
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                margin-left: .1rem;
+                color: #ffffff;
+                .title,.subtitle{
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}

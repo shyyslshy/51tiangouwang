@@ -1,0 +1,41 @@
+.Specialfestival{
+padding: 0 .1rem;
+h3{
+    font-weight: 900;
+}
+    .goods {
+        ul {
+            .gooditem {
+                border: 1px solid #cccccc;
+                margin: .1rem;
+                text-align: center;
+                border-radius: .1rem;
+                .goodsimg {
+                    width: .8rem;
+                }
+                
+                .title {
+                    margin: .05rem 0;
+                    max-width: .8rem;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    font-size: .01rem;
+                }
+                
+                .discount {
+                    .zhekou {
+                        margin-bottom: .08rem;
+                        margin-left: .05rem;
+                        float: left;
+                    }
+
+                    .shopcar {
+                        float: right;
+                        font-size: .1rem;
+                    }
+                }
+            }
+        }
+    }
+}

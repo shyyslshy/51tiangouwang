@@ -4,6 +4,7 @@ import GoodgoodsDataReducer from './Goodgoods/goodsGoodReducer'
 import recommendReducer from './Goodgoods/goodsGoodReducer'
 import storeReducer from './Store/StoreReducer'
 import overSeasReducer from './Overseas/overseasReducer'
+import DetailReducer from './Detail/DetailReducer'
 
 const reducer = combineReducers({
     // shopping页面的总体经纪人
@@ -11,7 +12,8 @@ const reducer = combineReducers({
     GoodgoodsDataReducer,
     recommendReducer,
     storeReducer,
-    overSeasReducer
+    overSeasReducer,
+    DetailReducer
 })
 
 export default reducer

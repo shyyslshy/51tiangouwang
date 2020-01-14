@@ -1,0 +1,56 @@
+div{
+    .flashsale {
+        padding: .1rem;
+        width: 100%;
+        background: linear-gradient(to right, #FFE1E0, #FFF7F7);
+        ;
+        .flashsaleimg {
+            width: .74rem;
+            display: inline-block;
+        }
+        .time{
+            margin-left: .1rem;
+        font-size: .1rem;
+        .deadline {
+            background: #ffffff;
+            margin: 0 .06rem;
+            color: red;
+        }
+    }
+    .showmore{
+        float:right;
+        text-decoration: underline;
+    }
+}
+.bigboxlunbo{
+    padding: 0 .1rem;
+    text-align: center;
+    background: linear-gradient(to right, #FFE1E0, #FFF7F7);
+    .lunbo{
+        margin: 0 .1rem;
+        width: .8rem;
+        background: #ffffff;
+        padding-bottom: .1rem;
+        .qianggouimg{
+            width: .8rem;
+        }
+    .goodtitle{
+        margin: .05rem 0;
+        max-width: .8rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        font-size: .01rem;
+    }
+    .pricebox{
+        font-size: .1rem;
+        text-align: center;
+        width: 100%;
+        .nowprice{
+            background: rgba(255, 76, 72, 0.2);
+            color: #ff4c48;
+        }
+    }
+}
+}
+}

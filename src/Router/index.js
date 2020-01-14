@@ -8,6 +8,8 @@ import Overseas from '@/Views/Overseas/Overseas'
 import Center from '@/Views/Center/Center'
 import Timelimited from '../Views/Shopping/Timelimited/Timelimited'
 import productListDetail from '../Views/Shopping/productListDetail/productListDetail'
+import Storesinformation from '../Components/Storesinformation/Storesinformation'
+import Detail from '@/Views/Detail/Detail'
 // 用了@符号
 // import Error from '@/Components/Error/Error'
 const router = <HashRouter>
@@ -19,6 +21,9 @@ const router = <HashRouter>
             <Route path="/shopping" component={Shopping} exact></Route>
             <Route path="/overseas" component={Overseas}></Route>
             <Route path="/center" component={Center}></Route>
+            <Route path="/门店信息" component={Storesinformation}></Route>
+            <Route path="/detail:goodid" component={Detail}></Route>
+            
 
             {/* 动态路由,被Route包裹的组件才有history,match等属性 */}
             <Route path="/shopping/:shoppingTimeLimited" component = {Timelimited}></Route>

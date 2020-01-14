@@ -1,0 +1,17 @@
+.bigbox{
+    float: left;
+    padding: .1rem;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    span{
+        flex: 1;
+        padding: .05rem;
+        p{
+            color: red;
+        }
+    }
+}
+.nowcurrent{
+    border-bottom: 3px solid red;
+}

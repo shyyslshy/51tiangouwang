@@ -1,0 +1,42 @@
+.top{
+    padding: 0 .1rem;
+    .titlebox{
+        .title{
+            font-size: .17rem;
+            font-weight: 900;;
+            height: .3rem;
+            line-height: .3rem;
+            display: inline-block;
+        }
+        .more {
+            float: right;
+        }
+    }
+    .goods{
+        ul{
+            .gooditem{
+                border: 1px solid #cccccc;
+                margin: .1rem;
+                text-align: center;
+                .goodsimg{
+                    width: .8rem;
+                }
+                .price{
+                    margin: .05rem 0;
+                    color: red;
+                }
+                .discount{
+                    .zhekou{
+                        margin-bottom: .08rem;
+                        margin-left: .05rem;
+                        float: left;
+                    }
+                    .shopcar{
+                        float: right;
+                        font-size: .1rem;
+                    }
+                }
+            }
+        }
+    }
+}
