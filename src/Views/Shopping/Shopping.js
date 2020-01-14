@@ -3,6 +3,8 @@ import style from './Shopping.module.scss'
 import store from '../../Redux/store'
 // import Axios from 'axios'
 import { getShoppingDataList } from '../../Redux/Actions/Shopping/Shoppingdatalist'
+import { getGoodsgoodVideoDataList } from '../../Redux/Actions/Shopping/Shoppingvideo'
+
 import Middlenav from './Middlenav/Middlenav'
 import Advertisement from './Advertisement/Advertisement'
 import Goodlist from './Goodslist/Goodlist'
@@ -12,9 +14,8 @@ import Pagehead from '../../Components/Pagehead/Pagehead'
 export default class Shopping extends Component {
 
     componentDidMount() {
-        store.dispatch(getShoppingDataList()).then(res => {
-            console.log("首页取回数据成功======异步存store成功",store.getState())
-        })
+        store.dispatch(getShoppingDataList())
+        store.dispatch(getGoodsgoodVideoDataList())
     }
     
     render() {

@@ -6,7 +6,7 @@ export default class Timelimited extends Component {
 
     componentDidMount() {
         Axios.get('/shopping/page/sec/tab.node?pageType=82&id=2855&_=1578368208507').then(res => {
-            console.log(res)
+            // console.log(res)
         })
     }
     

@@ -12,6 +12,7 @@ export default class Goodgoods extends Component {
 
     componentDidMount() {
         store.dispatch(GoodgoodsData())
+        //无限滚动 发ajax
         store.dispatch(recommend())
         // store.dispatch(recommend())
     }

@@ -9,7 +9,7 @@ export default class Advertisement extends Component {
 
     componentDidMount() {
         store.subscribe(()=>{
-            console.log('Advertisement数据',store.getState().shoppingReducer[7].data.items[0].imageUrl)
+            // console.log('Advertisement数据',store.getState().shoppingReducer[7].data.items[0].imageUrl)
             this.setState({
                 advertisementImg: store.getState().shoppingReducer[7].data.items[0].imageUrl
             })
